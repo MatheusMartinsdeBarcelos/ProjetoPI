@@ -1,0 +1,398 @@
+body{
+    overflow-x: hidden;
+    font-family: 'MinhaFonte', sans-serif;
+    background-color: #fff5ea;
+  }
+  
+  @font-face {
+    font-family:'MinhaFonte';
+    src: url(Urbanist-Thin.ttf);
+  }
+  
+  .produto {
+    background-color: #f5f5f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .produto .div {
+    background-color: #f5f5f7;
+    width: 100%;
+    position: relative;
+  }
+  
+  .produto .main-heading-as {
+    position: absolute;
+    width: 175px;
+    height: 32px;
+    top: 291px;
+    left: 100px;
+    font-family: "Arial-Bold", Helvetica;
+    font-weight: 700;
+    color: #1d1d1f;
+    font-size: 25.4px;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+    white-space: nowrap;
+  }
+  
+  .produto .overlap {
+    position: absolute;
+    width: 372px;
+    height: 306px;
+    top: 367px;
+    left: 230px;
+  }
+  
+  .produto .listitem {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 372px;
+    height: 289px;
+  }
+  
+  .produto .div-rf-ccard-content {
+    position: absolute;
+    left: -100px;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    box-shadow: 2px 4px 12px #00000014;
+  }
+  
+  .produto .removebg {
+    position: absolute;
+    width: 266px;
+    height: 266px;
+    top: 40px;
+    left: -30px;
+    object-fit: cover;
+  }
+  
+  .produto .overlap-group {
+    position: absolute;
+    width: 372px;
+    height: 315px;
+    top: 367px;
+    left: 691px;
+  }
+  
+  .produto .div-rf-ccard-content-2 {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    left: -100px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 2px 4px 12px #00000014;
+  }
+  
+  .produto .ra-o-pedigree-sabor {
+    height: 96px;
+    top: 325px;
+    left: 30px;
+    position: absolute;
+    width: 350px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+  }
+  
+  .produto .rao-removebg {
+    position: absolute;
+    width: 285px;
+    height: 285px;
+    top: 30px;
+    left: -40px;
+    object-fit: cover;
+  }
+  
+  .produto .overlap-2 {
+    position: absolute;
+    width: 372px;
+    height: 315px;
+    top: 367px;
+    left: 1152px;
+  }
+  
+  .produto .petisco-pedigree {
+    position: absolute;
+    width: 350px;
+    height: 64px;
+    top: 338px;
+    left: 25px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+  }
+  
+  .produto .img {
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    top: 45px;
+    left: -20px;
+    object-fit: cover;
+  }
+  
+  .produto .overlap-3 {
+    position: absolute;
+    width: 372px;
+    height: 316px;
+    top: 952px;
+    left: 230px;
+  }
+  
+  .produto .ra-o-pedigree-adulto {
+    height: 96px;
+    top: 334px;
+    left: 25px;
+    position: absolute;
+    width: 350px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+  }
+  
+  .produto .image {
+    width: 260px;
+    height: 260px;
+    top: 56px;
+    left: -30px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .produto .image-2 {
+    width: 370px;
+    height: 54px;
+    top: 290px;
+    left: 1080px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .produto .div-rf-ccard-content-wrapper {
+    top: 952px;
+    left: 691px;
+    position: absolute;
+    width: 372px;
+    height: 289px;
+  }
+  
+  .produto .image-3 {
+    width: 253px;
+    height: 253px;
+    top: 63px;
+    left: 73px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .produto .ra-o-pedigree {
+    height: 64px;
+    top: 347px;
+    left: 40px;
+    position: absolute;
+    width: 350px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+  }
+  
+  .produto .overlap-group-wrapper {
+    top: 952px;
+    left: 1152px;
+    position: absolute;
+    width: 372px;
+    height: 289px;
+  }
+  
+  .produto .overlap-group-2 {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    left: -34px;
+    border-radius: 18px;
+  }
+  
+  .produto .ra-o-pedigree-adulto-wrapper {
+    position: absolute;
+    top: 0;
+    left: -60px;
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    background-color: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 2px 4px 12px #00000014;
+  }
+  
+  .produto .text-wrapper {
+    position: absolute;
+    width: 350px;
+    height: 96px;
+    top: 330px;
+    left: 25px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+  }
+  
+  .produto .image-4 {
+    width: 245px;
+    height: 245px;
+    top: 66px;
+    left: 60px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .produto .p {
+    position: absolute;
+    width: 350px;
+    height: 96px;
+    top: 698px;
+    left: 160px;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    line-height: 32px;
+  }
+  
+  .rectangletop{
+    position: absolute;
+    width: 1920px;
+    height: 50px;
+    left: -10px;
+    top: 105px;
+    background: #fff5ea;
+    z-index: -1;
+  }
+  
+  .shop{
+    position: absolute;
+    left: 600px;
+    top: 100px;
+  }
+  
+  .promoção{
+    position: absolute;
+    left: 800px;
+    top: 100px;
+  }
+  
+  .brinquedos{
+    position: absolute;
+    left: 1000px;
+    top: 100px;
+  }
+  
+  .acessório{
+    position: absolute;
+    left: 1200px;
+    top: 100px;
+  }
+  
+  .entrar{
+    position: absolute;
+    left: 1500px;
+    top: 16px;
+  }
+  
+  .cadastrar{
+    position: absolute;
+    left: 1340px;
+    top: 30px;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 500px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+    padding-left: 70px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #215894;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.7s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #7dbcff;
+  }
+  
+  .imgPesquisa{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 420px;
+    top: 30px;
+  }
+  
+  .logo{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 20px;
+    top: -25px;
+  }
+  
+  .rectangletop2{
+    position: absolute;
+    width: 1920px;
+    height: 90px;
+    left: -10px;
+    top: 0px;
+    background: #fff5ea;
+    z-index: -1;
+  }
+  
+  .content {
+    width: 1000px; 
+    height: 300px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px; 
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px; 
+  }

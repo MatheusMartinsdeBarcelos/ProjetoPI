@@ -1,0 +1,108 @@
+body {
+    font-family: 'MinhaFonte', sans-serif;
+    background-color: #fff5ea;
+    color: #333;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family:'MinhaFonte';
+    src: url(Urbanist-Thin.ttf);
+}
+
+.line-1,
+.line-1 * {
+  box-sizing: border-box;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  height: 25px;
+  position: relative;
+  transform: rotate(-180deg) scale(2, 1);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    font-size: 20px;
+    margin-top: -120px;
+}
+
+.nav a {
+    text-decoration: none; 
+    color: inherit; 
+    outline: none; 
+}
+
+.nav a:focus, .nav a:active {
+    outline: none; 
+}
+
+.nav h4 {
+    margin: 0 0 0 0px;
+    padding: 0 105px;
+    cursor: pointer;
+    color: #333; /* Cor do texto do link */
+    margin-top: 150px;
+}
+
+.nav h4:hover {
+    color: #000; /* Cor do texto ao passar o mouse */
+}
+
+.logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    top: -20px;
+}
+
+  h1 {
+    font-size: 50px;
+    padding: 100px;
+    line-height: 1.5; 
+    margin-top: -5px;
+}
+
+p {
+    font-size: 30px;
+    padding: 100px;
+    margin-top: -200px;
+    text-align: justify;
+    font-family:'MinhaFonte2';
+}
+
+@font-face {
+    font-family:'MinhaFonte2';
+    src: url(Urbanist-Black.ttf);
+}
+
+.p2{
+    font-size: 30px;
+    padding: 100px;
+    margin-top: -210px;
+    text-align: justify;
+    font-family:'MinhaFonte2';
+}
+
+.p3 {
+    font-size: 30px;
+    padding: 100px;
+    margin-top: -220px;
+    text-align: justify;
+    font-family:'MinhaFonte2';
+}
+
+.p4 {
+    font-size: 30px;
+    padding: 100px;
+    margin-top: -230px;
+    text-align: justify;
+    font-family:'MinhaFonte2';
+}
+
+

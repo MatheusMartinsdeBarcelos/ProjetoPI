@@ -1,0 +1,172 @@
+body {
+    font-family: 'MinhaFonte', sans-serif;
+    background-color: #fff5ea;
+    color: #333;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family:'MinhaFonte';
+    src: url(Urbanist-Thin.ttf);
+  }
+
+.line-1,
+.line-1 * {
+  box-sizing: border-box;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  height: 0px;
+  position: relative;
+  transform: rotate(-180deg) scale(2, 1);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+    font-size: 20px;
+}
+
+.nav a {
+    text-decoration: none; 
+    color: inherit; 
+    outline: none; 
+}
+
+.nav a:focus, .nav a:active {
+    outline: none; 
+}
+
+.nav h4 {
+    margin: 5 0 0 20px;
+    padding: 0 105px;
+    cursor: pointer;
+    color: #333; /* Cor do texto do link */
+}
+
+.nav h4:hover {
+    color: #000; /* Cor do texto ao passar o mouse */
+}
+
+h1 {
+    font-size: 100px;
+    padding: 100px;
+    line-height: 1.5; 
+    margin-top: -20px;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 100px;
+    margin-top: -200px;
+}
+
+.btn41-43 {
+    padding: 10px 25px;
+    font-family: 'MinhaFonte2', sans-serif; /* Fonte alterada para Roboto */
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    top: -80px;
+    left: 930px;
+}
+
+@font-face {
+    font-family:'MinhaFonte2';
+    src: url(Urbanist-Black.ttf);
+  }
+  
+.btn-41 {
+    border: 2px solid rgb(0, 0, 0);
+    z-index: 1;
+    color: rgb(0, 0, 0);
+}
+  
+.btn-41:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    direction: rtl;
+    z-index: -1;
+    background: rgb(255, 144, 17);
+    transition: all 0.3s ease;
+}
+  
+.btn-41:hover {
+    color: rgb(0, 0, 0);
+}
+
+.btn-41:hover:after {
+    left: auto;
+    right: 0;
+    width: 100%;
+}
+  
+.btn-41:active {
+    top: 2px;
+}
+
+.logo{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 20px;
+    top: -20px;
+}
+
+.img1 {
+    position: absolute;
+    width: 500px;
+    height: 600x;
+    left: 1200px;
+    top: 150px;
+}
+
+/* Linha e retângulo */
+
+.rectangle-1 {
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    background-color: #ffaf72;
+    margin-top: 200px;
+    margin-left: 700px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulário de Login */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'MinhaFonte2', sans-serif; 
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-form label {
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+}
+
+
+

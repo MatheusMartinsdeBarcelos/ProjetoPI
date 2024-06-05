@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Produto de Supermercado</title>
+    <link rel="stylesheet" href="racao.css">
+</head>
+<body>
+    <div class="rectangletop"></div>
+    
+    <h3 class="shop">Shop</h3>
+    <h3 class="promoção">Promoção</h3>
+    <h3 class="brinquedos">Brinquedos</h3>
+    <h3 class="acessório">Acessório</h3>
+    <h3 class="entrar">Perfil</h3>
+
+    <div class="search-container">
+        <input type="text" placeholder="Pesquisar...">
+        <button type="submit">Pesquisar</button>
+    </div>
+
+    <a href="index4.html">
+        <img src="caramelo_s__1_-removebg-preview 1.svg" alt="logo" class="logo">
+    </a>
+
+    <div class="product-container">
+        <!-- Produto 1 -->
+        <div class="product">
+            <div class="carousel">
+                <img src="ração01-removebg-preview (1) 1.svg" alt="Imagem do Produto 1">
+                <img src="Captura_de_tela_2024-06-05_083603-removebg-preview.png" alt="Imagem do Produto 2">
+            </div>
+            <div class="price">R$ 5,00</div>
+            <div class="description">Ração Pedigree - Sabor Carne, Frango e Cereais.</div>
+            
+            <div class="button-container">
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="Descricao">
+        <h1>Descrição</h1>
+        <h2>
+        - Indicada para cães;
+        <br>- Refeição 100% completa;
+        <br>- Sem conservantes, sem corantes e sem aromas artificiais;
+        <br>- Suculentos pedacinhos cozidos a vapor;
+        <br>- Balanço ideal de fibras;
+        <br>- Proporciona fezes firmes e fáceis de limpar;
+        <br>- Qualidade de vida;
+        <br>- Ingredientes de alta qualidade que mantêm seu cão saudável e cheio de energia;
+        <br>- Disponível em embalagem de 100g.
+    </h2>
+    </div>
+    
+    <script>
+        let currentImageIndex = 0;
+        const images = document.querySelectorAll('.carousel img');
+
+        function showImage(index) {
+            images.forEach((img, i) => {
+                img.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function prevImage() {
+            currentImageIndex = (currentImageIndex > 0) ? currentImageIndex - 1 : images.length - 1;
+            showImage(currentImageIndex);
+        }
+
+        function nextImage() {
+            currentImageIndex = (currentImageIndex < images.length - 1) ? currentImageIndex + 1 : 0;
+            showImage(currentImageIndex);
+        }
+
+        showImage(currentImageIndex); 
+    </script>
+</body>
+</html>
